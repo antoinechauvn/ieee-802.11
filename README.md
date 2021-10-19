@@ -26,3 +26,5 @@ L'ensemble articulé autour de la norme IEEE 802.11 se décompose en éléments 
 
 ## 802.11ax
 >IEEE 802.11ax (ou Wi-Fi 6) est le dernier standard IEEE 802.11, publié le 19 mai 20212. Optimisant l'utilisation du spectre sur une bande plus large (de 1 à 7,1 GHz), ce standard permet d'augmenter encore le débit nominal (37% de mieux) mais encore plus en crêtes (jusqu'à un facteur 4), tout en diminuant la latence (de potentiellement 75%). Dès 2017 pour les points d'accès et 2019 pour les terminaux, certains constructeurs ont commencé à sortir du matériel compatible avec cette norme.
+
+##### Copyright Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
