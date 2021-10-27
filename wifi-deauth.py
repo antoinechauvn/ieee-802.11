@@ -14,7 +14,7 @@ en-tête, certains champs ne peuvent donc pas être utilisés, par exemple celui
 connaître le type de cryptage (WEP, WPA) contenu normalement dans le champs flags.
 """
 
-from scapy.layers.dot11 import Dot11
+from scapy.layers.dot11 import Dot11 # Spécification du protocole 802.11
 from scapy.layers.dot11 import Dot11Deauth
 from scapy.all import sendp
 __author__ = "Chauvin Antoine"
