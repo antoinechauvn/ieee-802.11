@@ -1,4 +1,16 @@
 from scapy.layers.dot11 import RadioTap
+"""
+L'interface radiotap est une surcouche logicielle à une interface réseau physique,
+créant une nouvelle interface virtuelle (nommée « rtapX », où X est un entier naturel). Elle
+permet d'ajouter à tout paquet capturé un en-tête contenant des informations sur la trame
+reçue, informations sur la communication radio elle-même comme la puissance du signal,
+ou encore la fréquence utilisée. Cet en-tête est de longueur variable, le nombre de champs 
+le composant n'étant pas fixé, les champs présents dans l'en-tête sont connus grâce aux
+bits du champ present flags. À l'heure actuelle, tout n'est pas encore implémenté dans cet
+en-tête, certains champs ne peuvent donc pas être utilisés, par exemple celui permettant de
+connaître le type de cryptage (WEP, WPA) contenu normalement dans le champs flags.
+"""
+
 from scapy.layers.dot11 import Dot11
 from scapy.layers.dot11 import Dot11Deauth
 from scapy.all import sendp
