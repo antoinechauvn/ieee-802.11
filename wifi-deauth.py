@@ -1,5 +1,8 @@
 from scapy.layers.dot11 import RadioTap
 """
+http://mouchevii.free.fr/fichiers/utbm/tx52/tx52_cypriani-rossel_(Sans_annexes).pdf
+https://www.radiotap.org/#:~:text=Radiotap%20is%20a%20de%20facto,helping%20to%20advance%20this%20standard.
+
 L'interface radiotap est une surcouche logicielle à une interface réseau physique,
 créant une nouvelle interface virtuelle (nommée « rtapX », où X est un entier naturel). Elle
 permet d'ajouter à tout paquet capturé un en-tête contenant des informations sur la trame
